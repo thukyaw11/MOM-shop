@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.shopping_cart),
-              title: Text(homePageTitle),
+              title: Text(shoppingCartTitle),
               onTap: () {
                 Navigator.of(context).pushNamed('/product_cart');
               },
